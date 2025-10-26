@@ -93,7 +93,7 @@ namespace laba2_3sem_9var_zad1
 
             if (password1.Length != password2.Length) return true;
             
-            for (int index = 0; index < password1[index]; index++)
+            for (int index = 0; index < password1.Length; index++)
             {
                 if (password1[index] != password2[index]) return true;
             }
@@ -143,6 +143,7 @@ namespace laba2_3sem_9var_zad1
             string pass = new(password._PassElements);
             return pass;
         }
+
         private char EnterChar(int k)
         {
             if(k == 1) Console.WriteLine("Введите символ для замены: ");

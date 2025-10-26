@@ -23,7 +23,7 @@ namespace laba2_3sem_9var_zad1
                 Console.Write($"Пароль {(string)password1} {(password1 > password2 ? "длиннее" : "не длиннее")} чем {(string)password2}");
 
                 Console.WriteLine("\n\n === Проверка оператора  != - проверка паролей на неравенство === \n");
-                Console.Write($"Пароль {(string)password1} {(password1 != password2 ? "не равен" : "равен")} {(string)password2}");
+                Console.Write($"Пароль {(string)password1} {(password1 == password2 ? "не равен" : "равен")} {(string)password2}");
 
 
                 Console.WriteLine("\n\n === Проверка оператора  ++ сброс пароля на значение по умолчанию === \n");
